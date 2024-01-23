@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    background-color: cornflowerblue;
+}
+input {
+    font-size: 24px;
+}
+label {
+    font-size: 24px;
+}
+#sortear{
+    background-color: aqua;
+}
