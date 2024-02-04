@@ -1,13 +1,21 @@
 h1 {
     text-align: center;
-    background-color: cornflowerblue;
+    color: white;
 }
+
 input {
     font-size: 24px;
 }
+
 label {
     font-size: 24px;
+    color: white;
 }
-#sortear{
-    background-color: aqua;
+
+button {
+    width: 30%;
+}
+
+body{
+   background-image: url(https://tse1.mm.bing.net/th?id=OIP.o2nj6P9ZSjNqIkc84MtifAHaFa&pid=Api&P=0&h=180); 
 }
