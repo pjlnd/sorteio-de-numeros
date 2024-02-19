@@ -1,55 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
 * {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
-body{
-    background-color: black;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body {
+  background-color: black;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.container{
-    background-color: forestgreen;
-    padding: 30px 40px;
-    min-width: 470px;
-    color: white;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container {
+  background-color: forestgreen;
+  padding: 30px 40px;
+  min-width: 470px;
+  color: white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.container h1{
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 20px;
+.container h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .input-group {
-    display: flex;
-    padding: 20px 0px;
-    gap: 50px;
+  display: flex;
+  padding: 20px 0px;
+  gap: 50px;
 }
 
-.input-um{
-    display: flex;
-    flex-direction: column;
+.input-um {
+  display: flex;
+  flex-direction: column;
 }
 
-.input-dois{
-    display: flex;
-    flex-direction: column;
+.input-um label {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.input-dois {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-dois label {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 18px;
+  padding: 5px;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 4px solid black;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10pc;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 100%;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+
+span {
+  font-weight: bold;
 }
